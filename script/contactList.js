@@ -1,3 +1,4 @@
+// Mohit Kataria, Student Number: 8820649
 document
 .querySelector('#btn-add-contact')
 .addEventListener('click', function(){
@@ -12,6 +13,7 @@ function addContact(fullName){
     const contactDiv = document.createElement('div');
     contactDiv.className = "contact-entry";
 
+    // Double click event is added to remove the contact div
     contactDiv.addEventListener('dblclick', function(){
         contactDiv.remove();
     })
@@ -31,7 +33,7 @@ function addContact(fullName){
     document.querySelector('#contacts-list').append(contactDiv);
 }
 
-
+// RandomColor function is created in which hex color are stored in array and return a code randomly 
 function randomColor(){
     const colors =[
         '#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6', 

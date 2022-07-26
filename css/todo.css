@@ -5,7 +5,7 @@ body {
   }
 
 #main-header{
-  background-color: crimson;
+  background-color: rgb(0, 0, 0);
   color:#fff;
 }
 
@@ -14,10 +14,6 @@ body {
   margin: 0px;
   padding: 17px 0;
 }
-
-/* #navbar{
-  background-color: #333;
-} */
 
 #homepage{
   padding-top: 20px;
@@ -50,7 +46,7 @@ body {
     position: relative;
     padding: 12px 8px 12px 40px;
     list-style-type: none;
-    background: rgb(119 230 225);
+    background: rgb(123, 123, 123);
     font-size: 18px;
     transition: 0.2s;
     
@@ -58,17 +54,17 @@ body {
   
   /* zebra-stripes */
   ul li:nth-child(odd) {
-    background: #a1e5df;
+    background: #585858;
   }
   
   /* Change background-color on hover */
   ul li:hover {
-    background: rgb(121, 244, 234);
+    background: #81ead73d;
   }
   
   /* Clicked task will be marked as line thorugh text*/
   ul li.checked {
-    background: rgb(6, 82, 76);
+    background: #e81c1cb3;
     color: #fff;
     text-decoration: line-through;
   }

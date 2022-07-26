@@ -1,3 +1,4 @@
+// Mohit Kataria, Student Number: 8820649
 let listNodes = document.getElementsByTagName("LI");
 
 for (let i = 0; i < listNodes.length; i++) {

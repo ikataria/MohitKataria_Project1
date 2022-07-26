@@ -23,20 +23,15 @@ body{
 
 #navbar{
    background-color: #333;
-   /* color:#fff; */
 }
 
 #navbar ul{
     list-style: none;
     margin-left: 320px;
-    /* display: inline-block; */
-    /* padding: 0;  */
 }
 
 #navbar li{
     display: inline;
-    /* display: inline-block; */
-    /* padding-left: 40px; */
 }
 
 #navbar a{
@@ -78,7 +73,7 @@ body{
 
 #main{
     float: left;
-    width: 70%;
+    width: 60%;
     box-sizing: border-box;
     padding: 0 30px;
 }
@@ -95,7 +90,7 @@ body{
 
 #sidebar{
     float: right;
-    width: 30%;
+    width: 40%;
     box-sizing: border-box;
     padding: 10px;
     background-color: #333;
@@ -117,13 +112,13 @@ body{
 
 #about h3{
     color: #fff;
-    font-size: 12px;
+    font-size: 18px;
     word-spacing: 0.4em;
 }
 
 #about span{
     color: rgb(18, 9, 9);
-    font-size: 12px;
+    font-size: 18px;
     word-spacing: 0.4em;
 }
 
