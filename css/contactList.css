@@ -1,11 +1,57 @@
-body{
+/* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 24px;
     background-color: rgb(99, 123, 123);
+} */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    min-width: 250px;
+    background-color: rgb(97, 97, 97);
+  }
+
+#main-header{
+    background-color: crimson;
+    color:#fff;
+}
+
+#main-header h1{
+    text-align: center;
+    margin: 0px;
+    padding: 17px 0;
+}
+
+#homepage{
+    padding: 20px 0;
+    background-color: #333;
+  }
+  
+  #homepage a{
+    margin-left: 680px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+  }
+  
+#container{
+    width: 95%;
+    margin: auto;
+}
+
+
+#delInfo span{
+    color: red;
+}
+
+#delInfo p{
+    color: #fff;
+    font-size: 15px;
 }
 
 #page-title{
     font-size: 24px;
-    color: rgb(255, 111, 0);
+    color: #f1f1f1;
 }
 
 #input-wrapper{
@@ -49,4 +95,14 @@ button{
     border-bottom: 1px solid #e3e3e3;
     padding: 6px;
     flex-grow: 1;
+    color: #f1f1f1
+}
+
+.full-name span{
+    font-size: 15px;
+    /* margin-left: 8px;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 6px;
+    flex-grow: 1; */
+    color: #000000
 }

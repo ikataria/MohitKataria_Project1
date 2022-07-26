@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../css/todo.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/todo.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <header id="main-header">
+        <h1>To-Do App</h1>
+    </header>
 
-<div class="header">
-  <h2>To Do List</h2>
-  <input type="text" id="inputValue" placeholder="Title">
-  <span onclick="addTask()" class="button">New Task</span>
-</div>
+    <div id="homepage">
+      <a href="../index.html">Home</a>
+    </div>
 
-<ul id="list">
-  <li>Javascript project2</li>
-  <li>Digital Design assignment2</li>
-  <li class="checked">Pay mobile bill</li>
-  <li>Database Group project2</li>
-  <li>Responsive Design assignment3</li>
-  <li class="checked">Digital Design assignment 3</li>
-</ul>
+    <div class="header">
+      <!-- <h2>To Do List</h2> -->
+      <input type="text" id="inputValue" placeholder="Title" />
+      <span onclick="addTask()" class="button">New Task</span>
+    </div>
 
-<script src="../script/todo.js"></script>
+    <ul id="list">
+      <li>Javascript project2</li>
+      <li>Digital Design assignment2</li>
+      <li class="checked">Pay mobile bill</li>
+      <li>Database Group project2</li>
+      <li>Responsive Design assignment3</li>
+      <li class="checked">Digital Design assignment 3</li>
+    </ul>
 
-</body>
+    <script src="../script/todo.js"></script>
+  </body>
 </html>

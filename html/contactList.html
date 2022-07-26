@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact-list</title>
-    <link rel="stylesheet" href="../css/contactList.css">
-</head>
-<body>
-    <h1 id="page-title">Contact List</h1>
-    <div id="input-wrapper">
-        <input type="text" id="name-input" placeholder="Enter Name">
-        <button id="btn-add-contact">Add</button>
-    </div>  
-    <div id="contacts-list">
-        <!-- Created only for my reference but not needed now  -->
-        <div class="contact-entry">
-            <div class="name-initial">M</div>
-            <div class="full-name">Mohit</div>
-        </div>
-        <div class="contact-entry">
-            <div class="name-initial">M</div>
-            <div class="full-name">Mukta</div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/contactList.css" />
+    <title>Contact-list</title>
+  </head>
+  <body>
+
+    <header id="main-header">
+      <h1>Contact list App</h1>
+    </header>
+
+    <div id="homepage">
+      <a href="../index.html">Home</a>
     </div>
 
+    <div id="container">
+      <h1 id="page-title">Contacts</h1>
+      <div id="input-wrapper">
+        <input type="text" id="name-input" placeholder="Enter Name" />
+        <button id="btn-add-contact">Add</button>
+      </div>
+
+      <div id="delInfo">
+        <p><span>Note:</span> Double tap on contact to delete.</p>
+      </div>
+
+      <div id="contacts-list">
+        <!-- Created only for my reference but not needed now  -->
+        <div class="contact-entry">
+          <div class="name-initial">M</div>
+          <div class="full-name">Mohit Kataria <span>(Owner)</span></div>
+        </div>
+        
+        <!-- <div class="contact-entry">
+          <div class="name-initial">M</div>
+          <div class="full-name">Mukta</div>
+        </div> -->
+      </div>
+    </div>
+
+
     <script src="../script/contactList.js"></script>
-</body>
+  </body>
 </html>
