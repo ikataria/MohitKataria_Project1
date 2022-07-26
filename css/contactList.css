@@ -1,98 +1,99 @@
+/* Name: Mohit Kataria, Student Number: 8820649 */
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    min-width: 250px;
-    background-color: rgb(97, 97, 97);
-  }
-
-#main-header{
-    background-color: crimson;
-    color:#fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  min-width: 250px;
+  background-color: rgb(97, 97, 97);
 }
 
-#main-header h1{
-    text-align: center;
-    margin: 0px;
-    padding: 17px 0;
+#main-header {
+  background-color: crimson;
+  color: #fff;
 }
 
-#homepage{
-    padding: 20px 0;
-    background-color: #333;
-  }
-  
-  #homepage a{
-    margin-left: 680px;
-    text-decoration: none;
-    font-size: 25px;
-    color:white;
-  }
-  
-#container{
-    width: 95%;
-    margin: auto;
+#main-header h1 {
+  text-align: center;
+  margin: 0px;
+  padding: 17px 0;
 }
 
-
-#delInfo span{
-    color: red;
+#homepage {
+  padding: 20px 0;
+  background-color: #333;
 }
 
-#delInfo p{
-    color: #fff;
-    font-size: 15px;
+#homepage a {
+  margin-left: 590px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
 }
 
-#page-title{
-    font-size: 24px;
-    color: #f1f1f1;
+#container {
+  width: 95%;
+  margin: auto;
 }
 
-#input-wrapper{
-    margin: 24px 0;
+#delInfo span {
+  color: red;
 }
 
-input{
-    padding: 5px;
-    width: 240px;
-    max-width: 100%
+#delInfo p {
+  color: #fff;
+  font-size: 15px;
 }
 
-button{
-   padding: 6px 12px;
-   background-color: lightcoral;
-   color: white;
+#page-title {
+  font-size: 24px;
+  color: #f1f1f1;
+}
+
+#input-wrapper {
+  margin: 24px 0;
+}
+
+input {
+  padding: 5px;
+  width: 240px;
+  max-width: 100%;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: lightcoral;
+  color: white;
 }
 
 .contact-entry {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px;
 }
 
-.name-initial{
-    width: 36px;
-    height: 36px;
-    border-radius: 18px;
-    background-color: blue;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.7;
+.name-initial {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
 }
 
-.full-name{
-    font-size: 24px;
-    margin-left: 8px;
-    border-bottom: 1px solid #e3e3e3;
-    padding: 6px;
-    flex-grow: 1;
-    color: #f1f1f1
+.full-name {
+  font-size: 24px;
+  margin-left: 8px;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 6px;
+  flex-grow: 1;
+  color: #f1f1f1;
 }
 
-.full-name span{
-    font-size: 15px;
-    color: #000000
+.full-name span {
+  font-size: 15px;
+  color: #000000;
 }

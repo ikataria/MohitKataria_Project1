@@ -1,143 +1,144 @@
-body{
-    background-color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.6em;
-    font-size: 17px;
-    margin: 0;
+/* Name: Mohit Kataria, Student Number: 8820649 */
+
+body {
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6em;
+  font-size: 17px;
+  margin: 0;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-#main-header{
-    background-color: crimson;
-    color:#fff;
+#main-header {
+  background-color: crimson;
+  color: #fff;
 }
 
-#main-header h1{
-    text-align: center;
+#main-header h1 {
+  text-align: center;
 }
 
-#navbar{
-   background-color: #333;
+#navbar {
+  background-color: #333;
 }
 
-#navbar ul{
-    list-style: none;
-    margin-left: 320px;
+#navbar ul {
+  list-style: none;
+  margin-left: 250px;
 }
 
-#navbar li{
-    display: inline;
+#navbar li {
+  display: inline;
 }
 
-#navbar a{
-    color:#fff;
-    padding-right: 40px; 
-    text-decoration: none;
-    font-size: 22px;
+#navbar a {
+  color: #fff;
+  padding-right: 40px;
+  text-decoration: none;
+  font-size: 22px;
 }
 
-#showcase{
-    background-image: url('../images/showcase.jpg');
-    background-position: center left;
-    min-height: 300px;
-    margin-bottom: 30px;
-    text-align: center;
+#showcase {
+  background-image: url("../images/showcase.jpg");
+  background-position: center left;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-#showcase h2{
-    font-size: 50px;
-    color: white;
-    line-height: 1.5em;
-    padding-top: 30px;
+#showcase h2 {
+  font-size: 50px;
+  color: white;
+  line-height: 1.5em;
+  padding-top: 30px;
 }
 
-#showcase h2 span{
-    font-size: 50px;
-    color: #333;
-    line-height: 1.5em;
-    padding-top: 30px;
+#showcase h2 span {
+  font-size: 50px;
+  color: #333;
+  line-height: 1.5em;
+  padding-top: 30px;
 }
 
-#showcase p{
-    font-size: 25px;
-    color: rgb(154, 154, 154);
-    line-height: 1.5em;
-    padding-top: 30px;
+#showcase p {
+  font-size: 25px;
+  color: rgb(154, 154, 154);
+  line-height: 1.5em;
+  padding-top: 30px;
 }
 
-
-#main{
-    float: left;
-    width: 60%;
-    box-sizing: border-box;
-    padding: 0 30px;
+#main {
+  float: left;
+  width: 60%;
+  box-sizing: border-box;
+  padding: 0 30px;
 }
 
-#main h1{
-    color: #969696;
-    font-size: 35px;
+#main h1 {
+  color: #ff877b;
+  font-size: 35px;
 }
 
-#main p{
-    color: black;
-    font-size: 25px;
+#main p {
+  color: black;
+  font-size: 25px;
 }
 
-#sidebar{
-    float: right;
-    width: 40%;
-    box-sizing: border-box;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
+#sidebar {
+  float: right;
+  width: 40%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
 }
 
-#sidebar h1{
-    font-size: 35px;
+#sidebar h1 {
+  font-size: 35px;
 }
 
-#sidebar p{
-    font-size: 25px;
+#sidebar p {
+  font-size: 25px;
 }
 
-#about{
-    background-color: grey;
-    margin-top:40px;
+#about {
+  background-color: #788ed1;
+  margin-top: 40px;
 }
 
-#about h3{
-    color: #fff;
-    font-size: 18px;
-    word-spacing: 0.4em;
+#about h3 {
+  color: #fff;
+  font-size: 18px;
+  word-spacing: 0.4em;
 }
 
-#about span{
-    color: rgb(18, 9, 9);
-    font-size: 18px;
-    word-spacing: 0.4em;
+#about span {
+  color: #134e97;
+  font-size: 18px;
+  word-spacing: 0.4em;
 }
 
-#main-footer{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-top: 0px;
+#main-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0px;
 }
 
-@media(max-width:600px){
-    #main{
-        width:100%;
-        float: none;
-    }
+@media (max-width: 600px) {
+  #main {
+    width: 100%;
+    float: none;
+  }
 
-    #sidebar{
-        width:100%;
-        float: none;
-    }
+  #sidebar {
+    width: 100%;
+    float: none;
+  }
 }

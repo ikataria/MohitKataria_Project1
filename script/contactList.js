@@ -1,14 +1,18 @@
-// Mohit Kataria, Student Number: 8820649
+// Name: Mohit Kataria, Student Number: 8820649
 document
-.querySelector('#btn-add-contact')
-.addEventListener('click', function(){
-    const inputName = document.querySelector('#name-input');
-    addContact(inputName.value);
-    inputName.value = "";
-})
+    .querySelector('#btn-add-contact')
+    .addEventListener('click', function(){
+        const inputName = document.querySelector('#name-input');
+        addContact(inputName.value);
+        inputName.value = "";
+    })
 
 function addContact(fullName){
-    if(!fullName || !fullName.trim()) return;
+    // Check for the empty data from the UI and if found, throw error
+    if(!fullName || !fullName.trim()) {
+        alert("Please insert contact name first and try again.");
+        return;
+    };
 
     const contactDiv = document.createElement('div');
     contactDiv.className = "contact-entry";
@@ -35,7 +39,7 @@ function addContact(fullName){
 
 // RandomColor function is created in which hex color are stored in array and return a code randomly 
 function randomColor(){
-    const colors =[
+    const colors = [
         '#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6', 
         '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
         '#80B300', '#809900', '#E6B3B3', '#6680B3', '#66991A', 
